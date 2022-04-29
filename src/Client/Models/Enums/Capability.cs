@@ -119,6 +119,16 @@ namespace Bytewizer.Backblaze.Models
         /// <summary>
         /// Write Bucket Encryption
         /// </summary>
-        WriteBucketEncryption
+        WriteBucketEncryption,
+
+        /// <summary>
+        /// Added Bucket Replication capability.
+        /// </summary>
+        ReadBucketReplications,
+
+        /// <summary>
+        /// Added Bucket Replication capability.
+        /// </summary>
+        WriteBucketReplications
     }
 }
